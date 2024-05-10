@@ -5,6 +5,7 @@ import "./Background2.css";
 import { Footer } from "./components/Footer/Footer";
 import "./assets/fonts/Quicksand.ttf";
 import { Header } from "./components/Header/Header";
+import { Signup } from "./components/Signup/Signup";
 
 function App() {
   return (
@@ -20,13 +21,10 @@ function App() {
       <div className="App">
         <Header/>
         <img src={logo} className="landing-logo" alt="logo" />
-        <div className="landing-slogan">Company slogan</div>
+        {/* <div className="landing-slogan">Company slogan</div> */}
 
         <div>
-          <div className="signup">
-            <div className="landing-signup-input">Signup Input</div>
-            <div className="landing-signup-text">Signup Text</div>
-          </div>
+          <Signup />
           <Footer />
         </div>
       </div>
