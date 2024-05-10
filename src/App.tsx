@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './crosscall-logo.svg';
 import './App.css';
 import './Background2.css';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   return (
@@ -30,14 +31,7 @@ function App() {
             <div>Signup Input</div>
             <div>Signup Text</div>
           </div>
-          <div className="footer">
-            <div>Copyright</div>
-            <div>
-              <div>Gitbook</div>
-              <div>Github</div>
-              <div>Twitetr</div>
-            </div>
-          </div>
+          <Footer/>
         </div>
       </div>
     </div>
