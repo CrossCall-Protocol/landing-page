@@ -10,7 +10,7 @@ export const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="footer-copyright">Copyright</div>
+      <div className="footer-copyright">© 2024 CrossCall Labs Inc.</div>
       <div className="footer-socials">
         <div className="footer-socials-gitbook">Gitbook</div>
         <div className="footer-socials-github">Github</div>
