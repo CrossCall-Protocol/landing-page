@@ -32,29 +32,19 @@ export const Signup = () => {
     }
 };
 
-
-  const handleOnSwap = () => {
-    console.log('handleOnSwap logged!');
-  };
-
-  const handleWhitepaperClick = () => {
-    alert('Whitepaper coming soon!');
-  };
-
   return (
     <div className="signup">
       <div className="signup-inner">
-        <div className="signup-inner-title"></div>
+        <div className="signup-inner-title">Follow us to keep update-to-date on our newest breakthroughs!</div>
         <div className="signup-inner-input">
-          <form onSubmit={handleSubmit}>
-            <div className="signup-inner-field">
+          <form onSubmit={handleSubmit} className="signup-inner-field">
+            
               <input
                 type="email"
                 value={email}
                 onChange={handleEmailChange}
                 placeholder="Enter your email"
               />
-            </div>
             <div className="signup-inner-button">
               <button type="submit">Submit</button>
             </div>
