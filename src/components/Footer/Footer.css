@@ -7,14 +7,15 @@
   padding: 10px;
   text-align: center;
   height: 20px;
+  text-align: center;
 }
 
 .footer-copyright {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  bottom: 50%;
-  transform: translateY(50%);
+  bottom: 25%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
 }
 
 .footer-socials {
