@@ -20,6 +20,12 @@
   animation: moveBackground 100s linear infinite;
 }
 
+@font-face {
+  font-family: "Quicksand";
+  src: url("./assets/fonts/Quicksand.ttf") format("truetype");
+  /* You can specify other font properties like font-weight and font-style if needed */
+}
+
 @keyframes moveBackground {
   0% {
     background-position: 0 0;
@@ -31,6 +37,8 @@
 
 .landing-logo {
   color: #ffffff;
+  font-family: Quicksand, sans-serif;
+  font-size: large;
 }
 
 .landing-slogan {
@@ -57,8 +65,8 @@
   color: #ffffff;
 }
 
-.landing-signup-text{
-  color:#ffffff
+.landing-signup-text {
+  color: #ffffff;
 }
 
 /* .App {

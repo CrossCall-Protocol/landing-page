@@ -3,6 +3,7 @@ import logo from "./crosscall-logo.svg";
 import "./App.css";
 import "./Background2.css";
 import { Footer } from "./components/Footer/Footer";
+import "./assets/fonts/Quicksand.ttf";
 
 function App() {
   return (
