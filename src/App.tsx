@@ -4,6 +4,7 @@ import "./App.css";
 import "./Background2.css";
 import { Footer } from "./components/Footer/Footer";
 import "./assets/fonts/Quicksand.ttf";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
@@ -17,15 +18,9 @@ function App() {
       </div>
       {/*  */}
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <div className="landing-logo">Logo</div>
+        <Header/>
+        <img src={logo} className="landing-logo" alt="logo" />
         <div className="landing-slogan">Company slogan</div>
-        <div className="header">
-          <div className="landing-header-whitepaperz">whitepaperz</div>
-          <div className="landing-header-docs">docs</div>
-        </div>
 
         <div>
           <div className="signup">

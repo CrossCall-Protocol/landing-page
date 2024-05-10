@@ -36,9 +36,13 @@
 }
 
 .landing-logo {
+  position: absolute;
   color: #ffffff;
   font-family: Quicksand, sans-serif;
   font-size: large;
+  top: 40px;
+  left: 40px;
+  transform: scale(0.8);
 }
 
 .landing-slogan {
