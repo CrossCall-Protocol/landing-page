@@ -1,15 +1,43 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #000000BF;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  height: 20px;
+}
+
 .footer-copyright {
-  color: #ffffff
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50%;
+  transform: translateY(50%);
 }
+
 .footer-socials {
-  color: #ffffff
+  position: absolute;
+  right: 60px;
 }
-.footer-socials-gitbook {
-  color: #ffffff
+
+.footer-socials-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: 10px;
 }
-.footer-socials-github {
-  color: #ffffff
+
+.footer-socials-inner img {
+  fill: #ffffff;
+  width: 20px;
+  margin: 0 10px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in, transform 0.3s ease-in;
 }
-.footer-socials-x {
-  color: #ffffff
+
+.footer-socials-inner img:hover {
+  filter: brightness(0) invert(1);
+  transform: scale(1.1);
 }
