@@ -4,24 +4,18 @@ import { ReactComponent as Logo } from '../../assets/svg/logo.svg';
 // import { Swap } from '../Swap/Swap';
 
 export const Footer = () => {
-
   const handleOnSwap = () => {
     console.log('handleOnSwap logged!');
   };
 
-
-
   return (
-    <div className="dashbaord-box">
-      Footer
-      <div className="footer">
-            <div>Copyright</div>
-            <div>
-              <div>Gitbook</div>
-              <div>Github</div>
-              <div>Twitetr</div>
-            </div>
-          </div>
+    <div className="footer">
+      <div className="footer-copyright">Copyright</div>
+      <div className="footer-socials">
+        <div className="footer-socials-gitbook">Gitbook</div>
+        <div className="footer-socials-github">Github</div>
+        <div className="footer-socials-x">X</div>
+      </div>
     </div>
   );
 };
