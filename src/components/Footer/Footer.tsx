@@ -18,13 +18,13 @@ export const Footer = () => {
       <div className="footer-copyright">© 2024 CrossCall Labs Inc.</div>
       <div className="footer-socials">
         <div className="footer-socials-inner">
-          <a href={'github.com'} target="_blank" rel="noopener noreferrer">
+          <a href={'https://github.com/crosscall_protocol'} target="_blank" rel="noopener noreferrer">
             <img src={github} alt="Github"/>
           </a>
-          <a href={'github.com'} target="_blank" rel="noopener noreferrer">
+          <a href={'https://docs.gitbook.pro'} target="_blank" rel="noopener noreferrer">
             <img src={gitbook} alt="Gitbook"/>
           </a>
-          <a href={'github.com'} target="_blank" rel="noopener noreferrer">
+          <a href={'https://x.com/crosscall_labs'} target="_blank" rel="noopener noreferrer">
             <img src={xtwitter} alt="X"/>
           </a>
         </div>
