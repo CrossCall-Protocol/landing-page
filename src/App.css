@@ -13,10 +13,10 @@
   width: 120%;
   height: 150%;
   z-index: 0;
-  background-image: url('https://fauux.neocities.org/bg_9992.gif');
+  background-image: url("https://fauux.neocities.org/bg_9992.gif");
   background-repeat: repeat;
   background-size: 2.5%;
-  transform: rotate(5deg); 
+  transform: rotate(5deg);
   animation: moveBackground 100s linear infinite;
 }
 
@@ -31,6 +31,34 @@
 
 .landing-logo {
   color: #ffffff;
+}
+
+.landing-slogan {
+  color: #ffffff;
+}
+
+.header {
+  color: #ffffff;
+}
+
+.landing-header-whitepaperz {
+  color: #ffffff;
+}
+
+.landing-header-docs {
+  color: #ffffff;
+}
+
+.signup {
+  color: #ffffff;
+}
+
+.landing-signup-input {
+  color: #ffffff;
+}
+
+.landing-signup-text{
+  color:#ffffff
 }
 
 /* .App {
