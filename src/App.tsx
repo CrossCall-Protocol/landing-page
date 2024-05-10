@@ -30,7 +30,7 @@ function App() {
             <div>Signup Input</div>
             <div>Signup Text</div>
           </div>
-          <div>
+          <div className="footer">
             <div>Copyright</div>
             <div>
               <div>Gitbook</div>
