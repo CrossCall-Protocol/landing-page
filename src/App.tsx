@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './crosscall-logo.svg';
-import './App.css';
-import './Background2.css';
-import { Footer } from './components/Footer/Footer';
+import React from "react";
+import logo from "./crosscall-logo.svg";
+import "./App.css";
+import "./Background2.css";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -20,18 +20,18 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </header>
         <div className="landing-logo">Logo</div>
-        <div>Company slogan</div>
-        <div>
-          <div>whitepaper</div>
-          <div>docs</div>
+        <div className="landing-slogan">Company slogan</div>
+        <div className="header">
+          <div className="landing-header-whitepaperz">whitepaperz</div>
+          <div className="landing-header-docs">docs</div>
         </div>
 
         <div>
-          <div>
-            <div>Signup Input</div>
-            <div>Signup Text</div>
+          <div className="signup">
+            <div className="landing-signup-input">Signup Input</div>
+            <div className="landing-signup-text">Signup Text</div>
           </div>
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </div>
