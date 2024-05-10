@@ -20,15 +20,23 @@ function App() {
         </header>
         <div className="landing-logo">Logo</div>
         <div>Company slogan</div>
-        <div>whitepaper</div>
-        <div>docs</div>
         <div>
-          <div>Signup Box</div>
-          <div>Signup Test</div>
+          <div>whitepaper</div>
+          <div>docs</div>
+        </div>
+
+        <div>
           <div>
-            <div>Gitbook</div>
-            <div>Github</div>
-            <div>Twitetr</div>
+            <div>Signup Input</div>
+            <div>Signup Text</div>
+          </div>
+          <div>
+            <div>Copyright</div>
+            <div>
+              <div>Gitbook</div>
+              <div>Github</div>
+              <div>Twitetr</div>
+            </div>
           </div>
         </div>
       </div>
