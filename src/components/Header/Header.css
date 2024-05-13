@@ -25,17 +25,11 @@
   position: relative;
   display: inline-block;
   line-height: 40px;
-  color: #0a369d;
+  color: #AFB4C0;
   font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-@media (max-witdh: 600px ) {
-  .header-inner a {
-    color: green;
-  }
 }
 
 .header-inner a:hover {
@@ -45,4 +39,10 @@
 
 .header-inner a:active {
   color: #B8860B;
+}
+
+@media (max-width: 600px) {
+  .header-inner a {
+    color: red;
+  }
 }

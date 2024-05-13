@@ -1,9 +1,16 @@
+body{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .App {
   position: relative; /* Set position to relative */
   z-index: 1; /* Set a higher z-index for the content layer */
   text-align: center;
   min-height: 100vh;
   overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .Background {
@@ -27,7 +34,7 @@
 }
 
 @media (max-witdh: 600px ) {
-  
+
 }
 
 @keyframes moveBackground {
