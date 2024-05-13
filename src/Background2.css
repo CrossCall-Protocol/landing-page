@@ -5,7 +5,7 @@
   background-image: url(https://fauux.neocities.org/bg_darker.gif);
   animation: darkestDown 80s linear infinite;
   opacity: 25%;
-  background-color: lightblue;
+  background-color: lightgreen;
 }
 
 .dark {
@@ -15,7 +15,7 @@
   background-image: url(https://fauux.neocities.org/bg_dark_anim_0_08.gif);
   animation: darkest 60s linear infinite;
   opacity: 65%;
-  background-color: darkblue;
+  background-color: darkgreen;
 }
 
 @keyframes darkest {
