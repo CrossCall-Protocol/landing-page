@@ -19,7 +19,7 @@ export const Header = () => {
       <div className="header-inner">
         <a className="header-whitepaper" onClick={handleWhitepaperClick}>WHITEPAPER</a>
         <a className="header-roadmap" onClick={handleRoadmapClick}>ROADMAP</a>
-        <a href={'https://docs.crosscall.pro'} target="_blank" rel="noopener noreferrer">DOCS</a>
+        <a className='header-docs' href={'https://docs.crosscall.pro'} target="_blank" rel="noopener noreferrer">DOCS</a>
       </div>
     </div>
   );

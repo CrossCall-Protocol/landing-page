@@ -1,14 +1,18 @@
 .header {
   position: absolute;
   top: 25%;
-  width: 70%;
+  width: 60%;
   background-color: #000000BF;
   color: #ffffff;
   height: 40px;
   text-align: center;
   transform: translate(-50%, -50%);
   left: 50%;
+  font-family: Quicksand;
+  font-weight: bolder;
 }
+
+
 
 .header-inner {
   position: relative;
@@ -21,11 +25,17 @@
   position: relative;
   display: inline-block;
   line-height: 40px;
-  color: #AFB4C0;
+  color: #0a369d;
   font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
   transition: text-shadow 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+@media (max-witdh: 600px ) {
+  .header-inner a {
+    color: green;
+  }
 }
 
 .header-inner a:hover {

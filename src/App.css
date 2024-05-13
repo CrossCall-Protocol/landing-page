@@ -26,6 +26,10 @@
   /* You can specify other font properties like font-weight and font-style if needed */
 }
 
+@media (max-witdh: 600px ) {
+  
+}
+
 @keyframes moveBackground {
   0% {
     background-position: 0 0;
