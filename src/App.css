@@ -27,6 +27,11 @@ body{
   animation: moveBackground 100s linear infinite;
 }
 
+.header-box {
+  display: flex;
+  flex-direction: row;
+}
+
 @font-face {
   font-family: "Quicksand";
   src: url("./assets/fonts/Quicksand.ttf") format("truetype");
@@ -46,15 +51,65 @@ body{
   }
 }
 
+.logo-container {
+  position: relative;
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ff7300; */
+}
+
+
+/* .rainbow-layer {
+  transform: rotate(45deg);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 4px solid black;
+  border-radius: 50%;
+  overflow: hidden;
+  background: linear-gradient(
+    90deg,
+    #ff0000 0%,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000 100%
+  );
+  background-size: 400%;
+  animation: glowing 20s linear infinite;
+  z-index: -1;
+} */
+
+
 .landing-logo {
   position: absolute;
+  width: calc(100% - 32px);
+  height: calc(100% - 32px);
   color: #ffffff;
   font-family: Quicksand, sans-serif;
   font-size: large;
-  top: 40px;
-  left: 40px;
-  transform: scale(0.8);
+  /* border-radius: 50%; */
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 1);
 }
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 400% 0;
+  }
+}
+
 
 .landing-slogan {
   color: #ffffff;
