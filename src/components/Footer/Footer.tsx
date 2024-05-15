@@ -15,7 +15,6 @@ export const Footer = () => {
 
   return (
     <div className="footer">
-      <div className="footer-copyright">© 2024 CrossCall Labs Inc.</div>
       <div className="footer-socials">
         <div className="footer-socials-inner">
           <a href={'https://github.com/crosscall-protocol'} target="_blank" rel="noopener noreferrer">
@@ -29,6 +28,7 @@ export const Footer = () => {
           </a>
         </div>
       </div>
+      <div className="footer-copyright">© 2024 CrossCall Labs Inc.</div>
     </div>
   );
 };

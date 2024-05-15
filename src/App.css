@@ -38,10 +38,6 @@ body{
   /* You can specify other font properties like font-weight and font-style if needed */
 }
 
-@media (max-witdh: 600px ) {
-
-}
-
 @keyframes moveBackground {
   0% {
     background-position: 0 0;
@@ -107,6 +103,36 @@ body{
   }
   100% {
     background-position: 400% 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-container {
+    position: relative;
+    margin: 30px auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #ff7300; */
+  }
+
+  .Background {
+    position: fixed;
+    top: -50px;
+    width: 250%;
+    height: 150%;
+  }
+}
+
+@media (max-width: 800px ) {
+  .Background {
+    position: fixed;
+    top: -50px;
+    left: -50px;
+    width: 250%;
+    height: 150%;
   }
 }
 

@@ -25,6 +25,7 @@
 }
 
 .footer-socials-inner {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -42,4 +43,40 @@
 .footer-socials-inner img:hover {
   filter: brightness(0) invert(1);
   transform: scale(1.1);
+}
+
+@media (max-width: 600px) {
+  .footer-socials {
+    position: relative;
+    right: 0;
+  }
+
+  .footer-copyright {
+    position: relative;
+  }
+
+  .footer-socials-inner {
+    justify-content: center;
+  }
+
+  .footer-socials-inner img {
+    width: 3cap;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footer-copyright {
+    position: relative;
+    font-size: 16px;
+    bottom: 0;
+    margin-top: 20px;
+  }
+
+  .footer {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
 }
