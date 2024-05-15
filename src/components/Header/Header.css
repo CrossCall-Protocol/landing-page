@@ -5,7 +5,7 @@
   justify-content: center;
   width: 100%;
   margin: 10px;
-  background-color: #000000BF;
+  background-color: #000000bf;
   color: #ffffff;
   height: 40px;
   text-align: center;
@@ -13,8 +13,6 @@
   font-family: Quicksand;
   font-weight: bolder;
 }
-
-
 
 .header-inner {
   position: relative;
@@ -28,7 +26,7 @@
   position: relative;
   display: inline-block;
   line-height: 40px;
-  color: #AFB4C0;
+  color: #afb4c0;
   font-size: 16px;
   margin-left: 20px;
   margin-right: 20px;
@@ -37,15 +35,32 @@
 
 .header-inner a:hover {
   text-shadow: 0 0 18px rgba(255, 215, 0, 0.5);
-  color: #FFD700;
+  color: #ffd700;
 }
 
 .header-inner a:active {
-  color: #B8860B;
+  color: #b8860b;
 }
 
 @media (max-width: 600px) {
+  .header {
+    background-color: #00000000;
+    flex-direction: column;
+  }
+  .header-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
   .header-inner a {
-    color: red;
+    margin: 10px;
+    background-color: #000000bf;
+    color: #ffffff;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
   }
 }
