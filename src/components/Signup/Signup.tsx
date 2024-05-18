@@ -12,6 +12,7 @@ export const Signup = () => {
 
   const handleSubmit = async (e: any) => {
     e.preventDefault();
+    setMessage('');
 
     try {
         const response = await fetch(`https://crosscall-landing-api.vercel.app/api/sql?query=post&email=${email}`);
@@ -26,8 +27,10 @@ export const Signup = () => {
         } else {
             throw new Error(`Server responded with status ${response.status}`);
         }
-    } catch (error) {
+        setMessage('Thank you for submitting!');
+    } catch (error: any) {
         // Error during fetch request
+        setMessage(error.toString());
         alert(`Error: ${error}`);
     }
 };
@@ -49,8 +52,10 @@ export const Signup = () => {
               <button type="submit">Submit</button>
             </div>
           </form>
-          {message && <p>{message}</p>}
+          
         </div>
+        {message && <p>{message}</p>}
+        {/* <p>For inquiries contract us via crosscallprotocol@gmail.com</p> */}
         <div className="signup-inner-test"></div>
       </div>
     </div>

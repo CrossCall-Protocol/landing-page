@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Footer.css';
-import { ReactComponent as Logo } from '../../assets/svg/logo.svg';
+// import { ReactComponent as Logo } from '../../assets/svg/logo.svg';
 
 import github from '../../assets/svg/github-icon.svg';
 // import telegram from '../../assets/svg/gitbook-icon.svg';
@@ -9,9 +9,6 @@ import xtwitter from '../../assets/svg/xtwitter-icon.svg';
 import gitbook from '../../assets/svg/gitbook-icon.svg';
 
 export const Footer = () => {
-  const handleOnSwap = () => {
-    console.log('handleOnSwap logged!');
-  };
 
   return (
     <div className="footer">
