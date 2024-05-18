@@ -26,16 +26,14 @@ function App() {
           <img src={logo} className="landing-logo" alt="logo" />
         </div>
 
-        <div className="header-box">
+        <div className="app-body">
           <Header />
-        </div>
 
-        {/* <div className="landing-slogan">Company slogan</div> */}
+          {/* <div className="landing-slogan">Company slogan</div> */}
 
-        <div>
           <Signup />
-          <Footer />
         </div>
+        <Footer />
       </div>
     </div>
   );
