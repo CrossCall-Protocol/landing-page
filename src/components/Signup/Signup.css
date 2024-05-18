@@ -23,7 +23,7 @@
   color: #ffffff;
   padding: 5px;
   font-family: Quicksand;
-  font-size: x-large;
+  font-size: 16px;
   font-weight: bolder;
 }
 
@@ -61,7 +61,7 @@
   font-size: 16px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .signup-inner {
     height: 180px;
   }
